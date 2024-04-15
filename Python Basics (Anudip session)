@@ -1,6 +1,6 @@
 #Python Basics (Anudip session)
 
-#no need of declaring data types
+#No need of declaring data types in Python
 a=20
 print(a)
 b=40
@@ -10,39 +10,39 @@ print(c)
 
 
 # user input
-a=int(input("enter first no."))
-b=float(input("enter second no."))
+a=int(input("Enter First Number: "))
+b=float(input("Enter Second Number: "))
 c=a+b
-print("The Additon is",c)
+print("The Additon is: ",c)
 
 
 #conditional statements
-age=int(input("enter your age"))
+age=int(input("Enter your Age"))
 if(age>=18):
-    print("you are eligible for voting")
+    print("You are eligible for voting!")
 
 print()
 print()
 
 #if...else
 
-a=int(input("enter the first no."))
-b=int(input("enter the second no."))
+a=int(input("Enter the First Number: "))
+b=int(input("Enter the Second Number: "))
 if(a>b):
-    print("greater no. is",a)
+    print("Greater Number is",a)
 else:
-    print("greater no. is",b)
+    print("Greater Number is",b)
 
 print()
 print()
 
 #if...elif...else
-a=int(input("enter the first no."))
-b=int(input("enter the second no."))
-c=int(input("enter the third no."))
+a=int(input("Enter the First Number: "))
+b=int(input("Enter the Second Number: "))
+c=int(input("Enter the Third Number: "))
 if(a>b and a>c):
-    print("greater no.",a)
+    print("Greater Number: ",a)
 elif(b>a and b>c):
-    print("greater no.",b)
+    print("Greater Number: ",b)
 else:
-    print("greater no.",c)
+    print("Greater Number: ",c)
