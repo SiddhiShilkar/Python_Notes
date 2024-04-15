@@ -16,6 +16,8 @@ In this repository, you'll find a series of Jupyter notebooks covering various P
 
 Each notebook is designed to be interactive and includes code examples, explanations, and exercises to reinforce your understanding of Python concepts.
 
+Additionally I have uploaded Python Notes by Anudip Foundation's Sessions. 
+
 ## Usage
 
 To use these notebooks, follow these steps:
